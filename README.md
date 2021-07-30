@@ -156,6 +156,42 @@ div { width: 100px;
   animation-duration: 4s;
 }
 ```
+***Note:***  Besides `from` and `to` you can also set keyframes by percentage 
+
+### Example
+```
+/* The animation code */  
+@keyframes example { 
+
+ 0% {
+	transform: scale(1);
+	background-color: red;
+ }
+
+ 25% {
+	 transform: scale(3);
+	 background-color: yellow;
+ }
+
+50% {
+ transform: scale(9);
+ background-color: blue;
+ }
+
+100% {
+ transform: scale(9);
+ background-color: green;
+ }
+}  
+  
+/* The element to apply the animation to */  
+div { width: 100px;  
+  height: 100px;  
+  background-color: red;  
+  animation-name: example;  
+  animation-duration: 4s;
+}
+```
 
 -   `animation-delay` -  specifies a delay for the start of an animation.
 

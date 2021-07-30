@@ -56,7 +56,7 @@ ___
 CSS transform allow you to move, rotate, scale, and skew elements.
 
 - #### Transform Syntax/Methods
--   `translate(X,Y) or translate(val)` - Move the element to one point to another.  Uses both x and y axises.
+-   `translate(X,Y) or translate(val)` - Move the element to one point to another.  Uses both x and y axis's.
  	-  `translateX()` - Move according to the x axis.
  	-  `translateY()` - Move according to the y axis.
  	-  `translateZ()` - Move according to the z axis.
